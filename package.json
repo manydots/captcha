@@ -1,0 +1,22 @@
+{
+  "name": "captcha",
+  "version": "0.0.1",
+  "description": "captcha",
+  "scripts": {
+    "server": "node --trace-deprecation ./app.js",
+    "server:http": "set port=3030 && node --trace-deprecation ./app.js",
+    "server:linux": "export port=8080 && node --trace-deprecation ./app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "koa",
+    "express"
+  ],
+  "license": "MIT"
+}
